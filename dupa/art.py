@@ -41,3 +41,4 @@ def asciiArt():
 	print('sulfanilamide Hrothgar riparian')
 	print('downtrend culprit molal')
 	print('upside Walt deus still')
+	print('Bennington lateral')
