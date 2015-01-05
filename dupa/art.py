@@ -80,3 +80,4 @@ def asciiArt():
 	print('tuneful magnet fraternal galactose roughish')
 	print('Lipschitz Oldenburg python tithe')
 	print('someonell joss')
+	print('geometer flog ovate threshold Kennecott')
