@@ -42,3 +42,4 @@ def asciiArt():
 	print('downtrend culprit molal')
 	print('upside Walt deus still')
 	print('Bennington lateral')
+	print('Epicurean cryogenic autocorrelate demolish syzygy')
