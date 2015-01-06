@@ -120,3 +120,4 @@ def asciiArt():
 	print('bile eviscerate inopportune schoolbook preemptive')
 	print('constipate originate captor')
 	print('vintner absorb convention complete')
+	print('Doris analysis Gaulle manumit Decca')
