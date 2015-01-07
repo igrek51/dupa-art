@@ -4,3 +4,4 @@ def asciiArt():
 	print('whirl pain optoacoustic sophism')
 	print('PDP hodgepodge extractor prefer')
 	print('abstain calculi headroom')
+	print('molybdenum creosote')
