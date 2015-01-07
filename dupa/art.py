@@ -43,3 +43,4 @@ def asciiArt():
 	print('upside Walt deus still')
 	print('Bennington lateral')
 	print('Epicurean cryogenic autocorrelate demolish syzygy')
+	print('box emblazon teak aloe')
