@@ -121,3 +121,4 @@ def asciiArt():
 	print('constipate originate captor')
 	print('vintner absorb convention complete')
 	print('Doris analysis Gaulle manumit Decca')
+	print('waggle piccolo tranquil Steven matron')
