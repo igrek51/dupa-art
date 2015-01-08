@@ -83,3 +83,4 @@ def asciiArt():
 	print('geometer flog ovate threshold Kennecott')
 	print('dutiful cloakroom aloe musicology')
 	print('touchstone Seward')
+	print('vomit sap')
