@@ -123,3 +123,4 @@ def asciiArt():
 	print('Doris analysis Gaulle manumit Decca')
 	print('waggle piccolo tranquil Steven matron')
 	print('setscrew strive terse sexual Zealand')
+	print('skirmish omnibus sue cloister')
