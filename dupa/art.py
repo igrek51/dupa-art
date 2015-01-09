@@ -45,3 +45,4 @@ def asciiArt():
 	print('Epicurean cryogenic autocorrelate demolish syzygy')
 	print('box emblazon teak aloe')
 	print('alumina venetian')
+	print('toggle en suey botany')
