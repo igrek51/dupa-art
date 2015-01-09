@@ -6,3 +6,4 @@ def asciiArt():
 	print('abstain calculi headroom')
 	print('molybdenum creosote')
 	print('anatomist Tenneco')
+	print('homesick clink ax vantage')
