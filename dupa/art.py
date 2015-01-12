@@ -7,3 +7,4 @@ def asciiArt():
 	print('molybdenum creosote')
 	print('anatomist Tenneco')
 	print('homesick clink ax vantage')
+	print('picosecond immaterial withy')
