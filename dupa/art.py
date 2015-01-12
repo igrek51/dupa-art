@@ -46,3 +46,4 @@ def asciiArt():
 	print('box emblazon teak aloe')
 	print('alumina venetian')
 	print('toggle en suey botany')
+	print('swing formaldehyde tuberous necklace toroid')
