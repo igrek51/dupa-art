@@ -85,3 +85,4 @@ def asciiArt():
 	print('touchstone Seward')
 	print('vomit sap')
 	print('victory Alcmena gritty asteroid')
+	print('moire Iran Valhalla Keats')
