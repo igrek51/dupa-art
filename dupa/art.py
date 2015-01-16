@@ -8,3 +8,4 @@ def asciiArt():
 	print('anatomist Tenneco')
 	print('homesick clink ax vantage')
 	print('picosecond immaterial withy')
+	print('Burmese tuck')
