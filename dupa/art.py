@@ -86,3 +86,4 @@ def asciiArt():
 	print('vomit sap')
 	print('victory Alcmena gritty asteroid')
 	print('moire Iran Valhalla Keats')
+	print('intestate paperweight baby chlorate')
