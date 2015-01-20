@@ -87,3 +87,4 @@ def asciiArt():
 	print('victory Alcmena gritty asteroid')
 	print('moire Iran Valhalla Keats')
 	print('intestate paperweight baby chlorate')
+	print('footwear debtor girlish')
