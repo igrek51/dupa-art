@@ -126,3 +126,4 @@ def asciiArt():
 	print('skirmish omnibus sue cloister')
 	print('sneer swum influent diopter Hiatt')
 	print('Cal citadel assai Hepburn moduli')
+	print('iv lectern Moluccas patentee')
