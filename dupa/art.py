@@ -88,3 +88,4 @@ def asciiArt():
 	print('moire Iran Valhalla Keats')
 	print('intestate paperweight baby chlorate')
 	print('footwear debtor girlish')
+	print('Hollerith burn baby sic')
