@@ -10,3 +10,4 @@ def asciiArt():
 	print('picosecond immaterial withy')
 	print('Burmese tuck')
 	print('lime Stuart Kellogg')
+	print('circus Cardiff temerity irreconciliable corrode')
