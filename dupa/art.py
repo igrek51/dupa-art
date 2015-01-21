@@ -127,3 +127,4 @@ def asciiArt():
 	print('sneer swum influent diopter Hiatt')
 	print('Cal citadel assai Hepburn moduli')
 	print('iv lectern Moluccas patentee')
+	print('clod trait loudspeaker Davies')
