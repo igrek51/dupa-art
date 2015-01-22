@@ -89,3 +89,4 @@ def asciiArt():
 	print('intestate paperweight baby chlorate')
 	print('footwear debtor girlish')
 	print('Hollerith burn baby sic')
+	print('latitudinal cranberry portage wage carboxylic')
