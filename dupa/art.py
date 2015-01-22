@@ -50,3 +50,4 @@ def asciiArt():
 	print('snagging Nebuchadnezzar')
 	print('crewel thud')
 	print('gibe insubordinate fallout Phillip')
+	print('jocund crampon thermostat')
