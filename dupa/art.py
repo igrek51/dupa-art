@@ -128,3 +128,4 @@ def asciiArt():
 	print('Cal citadel assai Hepburn moduli')
 	print('iv lectern Moluccas patentee')
 	print('clod trait loudspeaker Davies')
+	print('skyrocket Nakayama seem')
