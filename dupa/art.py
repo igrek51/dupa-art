@@ -51,3 +51,4 @@ def asciiArt():
 	print('crewel thud')
 	print('gibe insubordinate fallout Phillip')
 	print('jocund crampon thermostat')
+	print('squatting gunpowder biharmonic')
