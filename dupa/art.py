@@ -129,3 +129,4 @@ def asciiArt():
 	print('iv lectern Moluccas patentee')
 	print('clod trait loudspeaker Davies')
 	print('skyrocket Nakayama seem')
+	print('ass informant')
