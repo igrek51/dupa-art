@@ -90,3 +90,4 @@ def asciiArt():
 	print('footwear debtor girlish')
 	print('Hollerith burn baby sic')
 	print('latitudinal cranberry portage wage carboxylic')
+	print('locoweed barracuda anorthite whose prowess')
