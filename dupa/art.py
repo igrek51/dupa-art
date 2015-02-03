@@ -91,3 +91,4 @@ def asciiArt():
 	print('Hollerith burn baby sic')
 	print('latitudinal cranberry portage wage carboxylic')
 	print('locoweed barracuda anorthite whose prowess')
+	print('Briton Norma Galatia melody minaret')
