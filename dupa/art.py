@@ -130,3 +130,4 @@ def asciiArt():
 	print('clod trait loudspeaker Davies')
 	print('skyrocket Nakayama seem')
 	print('ass informant')
+	print('fleabane steward Alexander')
