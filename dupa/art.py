@@ -92,3 +92,4 @@ def asciiArt():
 	print('latitudinal cranberry portage wage carboxylic')
 	print('locoweed barracuda anorthite whose prowess')
 	print('Briton Norma Galatia melody minaret')
+	print('halfway plastron memoir once annoyance')
