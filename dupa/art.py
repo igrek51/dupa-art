@@ -53,3 +53,4 @@ def asciiArt():
 	print('jocund crampon thermostat')
 	print('squatting gunpowder biharmonic')
 	print('tachinid notoriety')
+	print('desideratum enthusiast wildflower Mycenaean operon')
