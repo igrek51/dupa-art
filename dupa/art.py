@@ -132,3 +132,4 @@ def asciiArt():
 	print('ass informant')
 	print('fleabane steward Alexander')
 	print('Alistair tapioca skeet shrilly combinatorial')
+	print('spiky immoderate')
