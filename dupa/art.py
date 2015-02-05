@@ -93,3 +93,4 @@ def asciiArt():
 	print('locoweed barracuda anorthite whose prowess')
 	print('Briton Norma Galatia melody minaret')
 	print('halfway plastron memoir once annoyance')
+	print('lead venomous godsend Donovan')
