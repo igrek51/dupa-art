@@ -54,3 +54,4 @@ def asciiArt():
 	print('squatting gunpowder biharmonic')
 	print('tachinid notoriety')
 	print('desideratum enthusiast wildflower Mycenaean operon')
+	print('bicep exactitude diatomic')
