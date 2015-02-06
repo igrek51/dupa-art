@@ -16,3 +16,4 @@ def asciiArt():
 	print('cool regretted')
 	print('sight hidebound handset Berkeley')
 	print('rouse quadrature cotangent raindrop')
+	print('anatomic mass')
