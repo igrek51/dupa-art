@@ -95,3 +95,4 @@ def asciiArt():
 	print('halfway plastron memoir once annoyance')
 	print('lead venomous godsend Donovan')
 	print('incongruous blade')
+	print('frantic feint')
