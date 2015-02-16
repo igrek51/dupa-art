@@ -57,3 +57,4 @@ def asciiArt():
 	print('bicep exactitude diatomic')
 	print('verbal bulbous slivery Howe Pontiac')
 	print('Lehigh harangue million Smithfield Jeannie')
+	print('flashback tuberculin reportorial')
