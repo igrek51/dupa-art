@@ -18,3 +18,4 @@ def asciiArt():
 	print('rouse quadrature cotangent raindrop')
 	print('anatomic mass')
 	print('dote cosmopolitan miss hollowware')
+	print('Sony mental')
