@@ -135,3 +135,4 @@ def asciiArt():
 	print('spiky immoderate')
 	print('referent dubitable ass')
 	print('interruption ball')
+	print('stinkbug coed adrift')
