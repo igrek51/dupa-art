@@ -97,3 +97,4 @@ def asciiArt():
 	print('incongruous blade')
 	print('frantic feint')
 	print('coleus Armco throwback')
+	print('carry Earthman')
