@@ -136,3 +136,4 @@ def asciiArt():
 	print('referent dubitable ass')
 	print('interruption ball')
 	print('stinkbug coed adrift')
+	print('arctan tellurium evenhanded Veda')
