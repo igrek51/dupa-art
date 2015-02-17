@@ -19,3 +19,4 @@ def asciiArt():
 	print('anatomic mass')
 	print('dote cosmopolitan miss hollowware')
 	print('Sony mental')
+	print('Glenn barfly Bangui Beatrice')
