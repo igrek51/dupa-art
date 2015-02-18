@@ -20,3 +20,4 @@ def asciiArt():
 	print('dote cosmopolitan miss hollowware')
 	print('Sony mental')
 	print('Glenn barfly Bangui Beatrice')
+	print('frock persecution then tappet immodest')
