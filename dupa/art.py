@@ -98,3 +98,4 @@ def asciiArt():
 	print('frantic feint')
 	print('coleus Armco throwback')
 	print('carry Earthman')
+	print('Everglade Williamsburg Cavendish scrutable')
