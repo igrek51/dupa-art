@@ -137,3 +137,4 @@ def asciiArt():
 	print('interruption ball')
 	print('stinkbug coed adrift')
 	print('arctan tellurium evenhanded Veda')
+	print('schlieren Avis Edmondson Mansfield immeasurable')
