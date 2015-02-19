@@ -138,3 +138,4 @@ def asciiArt():
 	print('stinkbug coed adrift')
 	print('arctan tellurium evenhanded Veda')
 	print('schlieren Avis Edmondson Mansfield immeasurable')
+	print('inasmuch knobby')
