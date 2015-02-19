@@ -99,3 +99,4 @@ def asciiArt():
 	print('coleus Armco throwback')
 	print('carry Earthman')
 	print('Everglade Williamsburg Cavendish scrutable')
+	print('moderate physiotherapy starboard Ashley democrat')
