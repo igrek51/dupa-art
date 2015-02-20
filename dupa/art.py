@@ -139,3 +139,4 @@ def asciiArt():
 	print('arctan tellurium evenhanded Veda')
 	print('schlieren Avis Edmondson Mansfield immeasurable')
 	print('inasmuch knobby')
+	print('shrunken celebrant supine')
