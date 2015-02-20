@@ -100,3 +100,4 @@ def asciiArt():
 	print('carry Earthman')
 	print('Everglade Williamsburg Cavendish scrutable')
 	print('moderate physiotherapy starboard Ashley democrat')
+	print('ought sheep towhead orchestra')
