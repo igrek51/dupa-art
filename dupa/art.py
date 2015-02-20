@@ -22,3 +22,4 @@ def asciiArt():
 	print('Glenn barfly Bangui Beatrice')
 	print('frock persecution then tappet immodest')
 	print('northernmost Colette praise')
+	print('sou beige chairlady embryonic McCluskey')
