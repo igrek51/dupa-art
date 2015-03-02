@@ -140,3 +140,4 @@ def asciiArt():
 	print('schlieren Avis Edmondson Mansfield immeasurable')
 	print('inasmuch knobby')
 	print('shrunken celebrant supine')
+	print('monogamy frontal infinity')
