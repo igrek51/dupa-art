@@ -141,3 +141,4 @@ def asciiArt():
 	print('inasmuch knobby')
 	print('shrunken celebrant supine')
 	print('monogamy frontal infinity')
+	print('afreet city nightmare')
