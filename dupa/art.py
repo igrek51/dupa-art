@@ -24,3 +24,4 @@ def asciiArt():
 	print('northernmost Colette praise')
 	print('sou beige chairlady embryonic McCluskey')
 	print('neurology Greenberg')
+	print('windfall seashore')
