@@ -102,3 +102,4 @@ def asciiArt():
 	print('moderate physiotherapy starboard Ashley democrat')
 	print('ought sheep towhead orchestra')
 	print('aminobenzoic livre Mathews addenda stupendous')
+	print('sukiyaki Emmanuel')
