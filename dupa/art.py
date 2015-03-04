@@ -64,3 +64,4 @@ def asciiArt():
 	print('Kyle pap')
 	print('neonatal showcase standeth')
 	print('silversmith Transylvania Lindstrom')
+	print('clergy airedale dachshund grandson bet')
