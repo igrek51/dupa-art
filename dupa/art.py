@@ -25,3 +25,4 @@ def asciiArt():
 	print('sou beige chairlady embryonic McCluskey')
 	print('neurology Greenberg')
 	print('windfall seashore')
+	print('Bloomington wigmake wolfish lawmake prosperous')
