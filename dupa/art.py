@@ -142,3 +142,4 @@ def asciiArt():
 	print('shrunken celebrant supine')
 	print('monogamy frontal infinity')
 	print('afreet city nightmare')
+	print('devour pasture commissary beatnik adsorptive')
