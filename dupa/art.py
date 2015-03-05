@@ -65,3 +65,4 @@ def asciiArt():
 	print('neonatal showcase standeth')
 	print('silversmith Transylvania Lindstrom')
 	print('clergy airedale dachshund grandson bet')
+	print('scoria Leyden speckle')
