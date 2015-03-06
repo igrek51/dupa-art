@@ -144,3 +144,4 @@ def asciiArt():
 	print('afreet city nightmare')
 	print('devour pasture commissary beatnik adsorptive')
 	print('medlar lighthouse governor captious instinctual')
+	print('Santayana programming resiny lumbermen religiosity')
