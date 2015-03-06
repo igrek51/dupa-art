@@ -105,3 +105,4 @@ def asciiArt():
 	print('sukiyaki Emmanuel')
 	print('mucus Nigeria hoydenish loosestrife')
 	print('declamation Goleta Bismark')
+	print('circlet stake gurgle rose sangaree')
