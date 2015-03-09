@@ -28,3 +28,4 @@ def asciiArt():
 	print('Bloomington wigmake wolfish lawmake prosperous')
 	print('executor pathogenic incontrovertible pirogue')
 	print('oughtnt smuggle asperity mulatto couturier')
+	print('synopsis Phelps nodal')
