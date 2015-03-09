@@ -145,3 +145,4 @@ def asciiArt():
 	print('devour pasture commissary beatnik adsorptive')
 	print('medlar lighthouse governor captious instinctual')
 	print('Santayana programming resiny lumbermen religiosity')
+	print('Weiss shoehorn diet Healy')
