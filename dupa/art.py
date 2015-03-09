@@ -106,3 +106,4 @@ def asciiArt():
 	print('mucus Nigeria hoydenish loosestrife')
 	print('declamation Goleta Bismark')
 	print('circlet stake gurgle rose sangaree')
+	print('monologue capstan')
