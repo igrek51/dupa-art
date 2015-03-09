@@ -67,3 +67,4 @@ def asciiArt():
 	print('clergy airedale dachshund grandson bet')
 	print('scoria Leyden speckle')
 	print('grandstand aleph')
+	print('handlebar synonymy')
