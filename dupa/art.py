@@ -68,3 +68,4 @@ def asciiArt():
 	print('scoria Leyden speckle')
 	print('grandstand aleph')
 	print('handlebar synonymy')
+	print('Niamey blather Melissa potlatch category')
