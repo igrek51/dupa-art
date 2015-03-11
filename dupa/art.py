@@ -107,3 +107,4 @@ def asciiArt():
 	print('declamation Goleta Bismark')
 	print('circlet stake gurgle rose sangaree')
 	print('monologue capstan')
+	print('berry ichneumon')
