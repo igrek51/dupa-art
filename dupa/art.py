@@ -146,3 +146,4 @@ def asciiArt():
 	print('medlar lighthouse governor captious instinctual')
 	print('Santayana programming resiny lumbermen religiosity')
 	print('Weiss shoehorn diet Healy')
+	print('buffalo emetic')
