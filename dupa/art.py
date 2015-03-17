@@ -30,3 +30,4 @@ def asciiArt():
 	print('oughtnt smuggle asperity mulatto couturier')
 	print('synopsis Phelps nodal')
 	print('silent convulsive mastodon miracle counterproductive')
+	print('park achieve whereas ingather')
