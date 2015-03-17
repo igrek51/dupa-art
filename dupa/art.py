@@ -69,3 +69,4 @@ def asciiArt():
 	print('grandstand aleph')
 	print('handlebar synonymy')
 	print('Niamey blather Melissa potlatch category')
+	print('Candide friable cabdriver')
