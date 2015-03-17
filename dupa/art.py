@@ -108,3 +108,4 @@ def asciiArt():
 	print('circlet stake gurgle rose sangaree')
 	print('monologue capstan')
 	print('berry ichneumon')
+	print('multinomial golden')
