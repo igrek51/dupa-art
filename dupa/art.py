@@ -31,3 +31,4 @@ def asciiArt():
 	print('synopsis Phelps nodal')
 	print('silent convulsive mastodon miracle counterproductive')
 	print('park achieve whereas ingather')
+	print('macromolecular sanguineous purge knuckle metaphor')
