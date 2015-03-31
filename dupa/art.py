@@ -70,3 +70,4 @@ def asciiArt():
 	print('handlebar synonymy')
 	print('Niamey blather Melissa potlatch category')
 	print('Candide friable cabdriver')
+	print('approbation aplomb cookbook')
