@@ -32,3 +32,4 @@ def asciiArt():
 	print('silent convulsive mastodon miracle counterproductive')
 	print('park achieve whereas ingather')
 	print('macromolecular sanguineous purge knuckle metaphor')
+	print('fragmentary Lancashire thoroughbred impend')
