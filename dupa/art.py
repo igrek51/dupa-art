@@ -110,3 +110,4 @@ def asciiArt():
 	print('berry ichneumon')
 	print('multinomial golden')
 	print('grandson circumvent salivary wheelbarrow rise')
+	print('incandescent craftsman Brice mushy')
