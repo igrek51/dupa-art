@@ -71,3 +71,4 @@ def asciiArt():
 	print('Niamey blather Melissa potlatch category')
 	print('Candide friable cabdriver')
 	print('approbation aplomb cookbook')
+	print('twelve reject computation')
