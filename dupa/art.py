@@ -72,3 +72,4 @@ def asciiArt():
 	print('Candide friable cabdriver')
 	print('approbation aplomb cookbook')
 	print('twelve reject computation')
+	print('puncture debug witness doberman valedictory')
