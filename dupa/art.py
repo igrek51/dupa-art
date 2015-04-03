@@ -34,3 +34,4 @@ def asciiArt():
 	print('macromolecular sanguineous purge knuckle metaphor')
 	print('fragmentary Lancashire thoroughbred impend')
 	print('UN Belmont')
+	print('actress sergeant')
