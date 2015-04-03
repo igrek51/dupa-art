@@ -151,3 +151,4 @@ def asciiArt():
 	print('bilharziasis Moyer confrontation')
 	print('ladybird exemplar')
 	print('Brookline Ireland sweetbread')
+	print('Pennsylvania eccentric Shattuck Doris Basel')
