@@ -35,3 +35,4 @@ def asciiArt():
 	print('fragmentary Lancashire thoroughbred impend')
 	print('UN Belmont')
 	print('actress sergeant')
+	print('biennial IT&T redshank handicapping godkin')
