@@ -113,3 +113,4 @@ def asciiArt():
 	print('incandescent craftsman Brice mushy')
 	print('Sophoclean Connors Trobriand beat')
 	print('Eumenides alkaline monomial Pentecost ping')
+	print('soiree thieving')
