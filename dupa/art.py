@@ -74,3 +74,4 @@ def asciiArt():
 	print('twelve reject computation')
 	print('puncture debug witness doberman valedictory')
 	print('Munich lodgepole profit sloven foolhardy')
+	print('endpoint Regis chromosomal kangaroo zillion')
