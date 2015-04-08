@@ -75,3 +75,4 @@ def asciiArt():
 	print('puncture debug witness doberman valedictory')
 	print('Munich lodgepole profit sloven foolhardy')
 	print('endpoint Regis chromosomal kangaroo zillion')
+	print('Lenore sleepwalk thermal')
