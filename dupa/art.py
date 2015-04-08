@@ -36,3 +36,4 @@ def asciiArt():
 	print('UN Belmont')
 	print('actress sergeant')
 	print('biennial IT&T redshank handicapping godkin')
+	print('eddy plankton Planck')
