@@ -76,3 +76,4 @@ def asciiArt():
 	print('Munich lodgepole profit sloven foolhardy')
 	print('endpoint Regis chromosomal kangaroo zillion')
 	print('Lenore sleepwalk thermal')
+	print('inconvertible drawn parenthetic upturn depreciable')
