@@ -77,3 +77,4 @@ def asciiArt():
 	print('endpoint Regis chromosomal kangaroo zillion')
 	print('Lenore sleepwalk thermal')
 	print('inconvertible drawn parenthetic upturn depreciable')
+	print('tuneful magnet fraternal galactose roughish')
