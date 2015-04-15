@@ -38,3 +38,4 @@ def asciiArt():
 	print('biennial IT&T redshank handicapping godkin')
 	print('eddy plankton Planck')
 	print('quatrain flop warden bivouac moduli')
+	print('sulfanilamide Hrothgar riparian')
