@@ -78,3 +78,4 @@ def asciiArt():
 	print('Lenore sleepwalk thermal')
 	print('inconvertible drawn parenthetic upturn depreciable')
 	print('tuneful magnet fraternal galactose roughish')
+	print('Lipschitz Oldenburg python tithe')
