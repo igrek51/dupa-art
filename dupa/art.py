@@ -39,3 +39,4 @@ def asciiArt():
 	print('eddy plankton Planck')
 	print('quatrain flop warden bivouac moduli')
 	print('sulfanilamide Hrothgar riparian')
+	print('downtrend culprit molal')
