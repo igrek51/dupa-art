@@ -118,3 +118,4 @@ def asciiArt():
 	print('landowning Mafioso bronchial')
 	print('sugar Jacobson brickbat')
 	print('bile eviscerate inopportune schoolbook preemptive')
+	print('constipate originate captor')
