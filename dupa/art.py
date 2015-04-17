@@ -40,3 +40,4 @@ def asciiArt():
 	print('quatrain flop warden bivouac moduli')
 	print('sulfanilamide Hrothgar riparian')
 	print('downtrend culprit molal')
+	print('upside Walt deus still')
