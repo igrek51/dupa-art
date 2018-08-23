@@ -9,3 +9,4 @@ def asciiArt():
 	print('iridium participle cull spikenard knowledgeable 3DQTAHQ')
 	print('injury cloth simulate compulsion PWFMX')
 	print('antennae hilum probationary BT8E65JCEVY0M')
+	print('harbinger hirsute trumpery calf XPGAQ')
