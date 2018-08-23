@@ -10,3 +10,4 @@ def asciiArt():
 	print('injury cloth simulate compulsion PWFMX')
 	print('antennae hilum probationary BT8E65JCEVY0M')
 	print('harbinger hirsute trumpery calf XPGAQ')
+	print('Fujitsu trisyllable stripe Toby DRCD3X')
