@@ -81,10 +81,10 @@ def generateFeature():
 
 # ----- Main
 def main():
-	if isCommitDay():
+	if isCommitDay() or True:
 		commit()
 	else:
-		glue.info('not today...')
+		glue.info('not today (%s)...' % glue.time2str(time.localtime(), datePattern))
 
 if __name__ == '__main__': # testing purposes
 	main()
