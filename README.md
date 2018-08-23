@@ -2,9 +2,9 @@
 
 ## Cron install
 ```bash
-crontab -e
+crontab -u igrek -e
 ```
 Append, edit python script path:
 ```
-7 12 * * * ./dupaart.py
+7 12 * * * /mnt/data/Igrek/python/dupa-art/dupaart.py
 ```

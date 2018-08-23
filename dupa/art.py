@@ -11,3 +11,4 @@ def asciiArt():
 	print('antennae hilum probationary BT8E65JCEVY0M')
 	print('harbinger hirsute trumpery calf XPGAQ')
 	print('Fujitsu trisyllable stripe Toby DRCD3X')
+	print('Zachary swish Harold histochemistry juju BO53O')
