@@ -63,8 +63,8 @@ def commit():
 	# make a change
 	glue.shellExec('echo "%s" >> dupa/art.py' % line)
 	# commit & push
-	#glue.shellExec('git commit -am "%s"' % commitMessage)
-	#glue.shellExec('git push origin master')
+	glue.shellExec('git commit -am "%s"' % commitMessage)
+	glue.shellExec('git push origin master')
 	glue.info('commit has been pushed')
 
 def generateCodeLine(feature):
