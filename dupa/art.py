@@ -12,3 +12,4 @@ def asciiArt():
 	print('harbinger hirsute trumpery calf XPGAQ')
 	print('Fujitsu trisyllable stripe Toby DRCD3X')
 	print('Zachary swish Harold histochemistry juju BO53O')
+	print('Textron Laue temptress unify helix AQMHLPDJDCJ3R2H0AWOH9PCYGD57MDM')

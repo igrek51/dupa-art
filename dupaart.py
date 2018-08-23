@@ -55,7 +55,7 @@ def commit():
 	glue.info("it's commit day!")
 	glue.setWorkdir(glue.getScriptRealDir())
 	# sleep random time
-	time.sleep(random.randint(0,60))
+	time.sleep(random.randint(0, 60))
 
 	feature = generateFeature()
 	line = generateCodeLine(feature)
