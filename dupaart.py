@@ -25,11 +25,9 @@ secretArt = [
 	'DD  UUU P   A A',
 	'               '
 ]
-firstDay = '2018-08-26'
+firstDay = '2015-01-04'
 
-datePattern = '%Y-%m-%d'
-
-def calculateCommitDays():
+def generateCommitDays():
 	firstDatetime = str2datetime(firstDay)
 	commitDays = []
 	# map commits schedule
@@ -38,55 +36,52 @@ def calculateCommitDays():
 			if secretArt[d][w] is not ' ': # if it's occupied
 				daysCount = w * 7 + d
 				date = firstDatetime + datetime.timedelta(days=daysCount)
-				commitDays.append(glue.time2str(date.timetuple(), datePattern))
+				commitDays.append(glue.time2str(date.timetuple(), '%Y-%m-%d'))
 	glue.debug('commitDays: ' + str(commitDays))
 	return commitDays
 
 def str2datetime(strDate):
-	return datetime.datetime.fromtimestamp(time.mktime(glue.str2time(strDate, datePattern)))
+	return datetime.datetime.fromtimestamp(time.mktime(glue.str2time(strDate, '%Y-%m-%d')))
 
-def isCommitDay():
-	now = time.localtime()
-	today = glue.time2str(now, datePattern)
-	commitDays = calculateCommitDays()
-	return today in commitDays
-
-def commit():
-	glue.info("it's commit day!")
-	glue.setWorkdir(glue.getScriptRealDir())
-	# sleep random time
-	time.sleep(random.randint(0, 60))
-
-	feature = generateFeature()
-	line = generateCodeLine(feature)
-	commitMessage = 'Add %s feature' % feature
-	glue.info('random code line: %s' % line)
-	glue.info('commit message: %s' % commitMessage)
+def makeCommit(commitDate):
+	featureName = generateFeatureName()
+	commitMessage = 'Add %s feature' % featureName
 	# make a change
-	glue.shellExec('echo "%s" >> dupa/art.py' % line)
-	# commit & push
-	glue.shellExec('git commit -am "%s"' % commitMessage)
-	glue.shellExec('git push origin master')
-	glue.info('commit has been pushed')
+	glue.shellExec('echo "%s" >> dupa/art.py' % generateCodeLine(featureName))
+	# set random time
+	datetime = setRandomTime(commitDate)
+	commitWithFakeDate(datetime, commitMessage)
 
-def generateCodeLine(feature):
-	length = random.randint(1, 32)
-	code = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(length))
-	return "\tprint('%s %s')" % (feature, code)
+def generateCodeLine(featureName):
+	return "\tprint('%s')" % featureName
 
-def generateFeature():
+def generateFeatureName():
 	words = glue.splitLines(glue.readFile('dupa/words.txt'))
 	message = ''
 	for i in range(random.randint(2, 5)):
 		message += random.choice(words) + ' '
 	return message[:-1]
 
+def commitWithFakeDate(datetime, message):
+	# date format: Tue Aug 28 12:07:00 2018 +0200
+	datetimeString = glue.time2str(datetime, "%a %b %d %H:%M:%S %Y +0200")
+	#glue.shellExec('git commit --date "%s" -am "%s"' % (datetimeString, commitMessage))
+	glue.info('commit has been made: %s - %s' % (datetimeString, commitMessage))
+
+def setRandomTime(date):
+	hour = random.randint(8, 21)
+	minute = random.randint(0, 59)
+	second = random.randint(0, 59)
+	return date.replace(hour=hour, minute=minute, second=second)
+
 # ----- Main
 def main():
-	if isCommitDay():
-		commit()
-	else:
-		glue.info('not today (%s)...' % glue.time2str(time.localtime(), datePattern))
+	glue.setWorkdir(glue.getScriptRealDir())
+	# make commits
+	for commitDay in generateCommitDays():
+		makeCommit(commitDay)
+	# push commits
+	glue.shellExec('git push origin master')
 
 if __name__ == '__main__': # testing purposes
 	main()

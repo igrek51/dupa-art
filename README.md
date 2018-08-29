@@ -1,10 +1,8 @@
 # Dupa Github Tiles Art
+Magnum opus among the art of Dupa
 
-## Cron install
+## Execute
+Simply run:
 ```bash
-crontab -u igrek -e
-```
-Append, edit python script path:
-```
-7 12 * * * /mnt/data/Igrek/python/dupa-art/dupaart.py
+python dupaart.py
 ```
