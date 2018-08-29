@@ -4,7 +4,7 @@ This is a Magnum opus among the art of Dupa.
 A Python script creates commits in the past with a specific date. These commits are composing a pattern on GitHub contribution activity tiles.
 Here's the example:
 
-![alt tag](https://github.com/igrek51/dupa-art/blob/master/wiki/dupa-github-igrek51.png)
+[![igrek51 GitHub Tiles](https://github.com/igrek51/dupa-art/blob/master/wiki/dupa-github-igrek51.png)](https://github.com/igrek51?tab=overview&from=2015-12-01&to=2015-12-31)
 
 ## Let's make the Art
 Set the pattern and a date in `dupaart.py` file and simply run:
