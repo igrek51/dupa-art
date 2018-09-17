@@ -7,7 +7,22 @@ Here's the example:
 [![igrek51 GitHub Tiles](https://github.com/igrek51/dupa-art/blob/master/wiki/dupa-github-igrek51.png)](https://github.com/igrek51?tab=overview&from=2015-12-01&to=2015-12-31)
 
 ## Let's make the Art
-Set the pattern and a date in `dupaart.py` file and simply run:
+Set the pattern and a date in `dupaart.py` file:
+```python
+secretArt = [
+	'               ',
+	'DD  U U PP   A ',
+	'D D U U P P A A',
+	'D D U U PP  AAA',
+	'D D U U P   A A',
+	'DD  UUU P   A A',
+	'               '
+]
+
+firstDay = '2015-01-04'
+```
+
+After that, just run:
 ```bash
 python dupaart.py
 ```
