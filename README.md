@@ -1,5 +1,5 @@
 # Dupa GitHub Tiles Art
-This is a Magnum opus among the art of Dupa.
+This is a picture generator on GitHub activity tiles.
 
 A Python script creates commits in the past with a specific date. These commits are composing a pattern on GitHub contribution activity tiles.
 Here's the example:
