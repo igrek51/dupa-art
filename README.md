@@ -7,9 +7,20 @@ Here's the example:
 [![igrek51 GitHub Tiles](https://github.com/igrek51/dupa-art/blob/master/wiki/dupa-github-igrek51.png)](https://github.com/igrek51?tab=overview&from=2015-12-01&to=2015-12-31)
 
 ## Let's make the Art
-Set the pattern and a date in `dupaart.py` file:
+Set your `secret_art` pattern and `first_day` date in `dupaart.py` file:
 ```python
-secretArt = [
+"""
+Tiles pattern made out of single days:
+Sun 
+Mon DD  U U PP   A 
+Tue D D U U P P A A
+Wed D D U U PP  AAA
+Thu D D U U P   A A
+Fri DD  UUU P   A A
+Sat
+Week123456789012345 - 15 weeks = 105 days < 4 months
+"""
+secret_art = [
 	'               ',
 	'DD  U U PP   A ',
 	'D D U U P P A A',
@@ -19,23 +30,21 @@ secretArt = [
 	'               '
 ]
 
-firstDay = '2015-01-04'
+first_day = '2015-01-04'
 ```
 
-After that, just run:
+Install dependencies:
 ```bash
-python dupaart.py
+pip3 install -r requirements.txt
 ```
-You may need to install `future` module before:
+and just run:
 ```bash
-apt install python-pip # for Debian
-pip install future
+python3 dupaart.py
 ```
 
 ## Testing
-Running tests on both Python 2 and 3:
+Running tests on Python 3:
 ```bash
-pip2 install future pytest coverage mock
 pip3 install future pytest coverage mock
-./pytest23.sh
+./pytest.sh
 ```

@@ -1,12 +1,14 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from glue import *
+#!/usr/bin/env python3
 import random
-import time
-import string
 import datetime
 
-'''
+from cliglue.utils.output import info, debug
+from cliglue.utils.time import str2time, time2str
+from cliglue.utils.shell import shell
+from cliglue.utils.files import read_file, set_workdir, script_real_dir
+
+"""
+Tiles pattern made out of single days:
 Sun 
 Mon DD  U U PP   A 
 Tue D D U U P P A A
@@ -15,70 +17,77 @@ Thu D D U U P   A A
 Fri DD  UUU P   A A
 Sat
 Week123456789012345 - 15 weeks = 105 days < 4 months
-'''
-secretArt = [
-	'               ',
-	'DD  U U PP   A ',
-	'D D U U P P A A',
-	'D D U U PP  AAA',
-	'D D U U P   A A',
-	'DD  UUU P   A A',
-	'               '
+"""
+secret_art = [
+    '               ',
+    'DD  U U PP   A ',
+    'D D U U P P A A',
+    'D D U U PP  AAA',
+    'D D U U P   A A',
+    'DD  UUU P   A A',
+    '               '
 ]
-firstDay = '2015-01-04'
+first_day = '2015-01-04'
 
-def generateCommitDays():
-	firstDatetime = str2time(firstDay, '%Y-%m-%d')
-	commitDays = []
-	# map commits schedule
-	for w in range(len(secretArt[0])): # for each week
-		for d in range(7): # for each day: 0 - 6
-			if secretArt[d][w] is not ' ': # if it's occupied
-				daysCount = w * 7 + d
-				date = firstDatetime + datetime.timedelta(days=daysCount)
-				commitDays.append(date)
-	debug('commitDays: %s' % map(lambda d: time2str(d, '%Y-%m-%d'), commitDays))
-	return commitDays
 
-def makeCommit(commitDate):
-	featureName = generateFeatureName()
-	commitMessage = 'Add %s feature' % featureName
-	# make a change
-	shellExec('echo "%s" >> dupa/art.py' % generateCodeLine(featureName))
-	# set random time
-	datetime = setRandomTime(commitDate)
-	commitWithFakeDate(datetime, commitMessage)
+def generate_commit_days():
+    first_datetime = str2time(first_day, '%Y-%m-%d')
+    commit_days = []
+    # map commits schedule
+    for w in range(len(secret_art[0])):  # for each week
+        for d in range(7):  # for each day: 0 - 6
+            if secret_art[d][w] is not ' ':  # if it's occupied
+                days_count = w * 7 + d
+                date = first_datetime + datetime.timedelta(days=days_count)
+                commit_days.append(date)
+    debug(f'commit days: {map(lambda c: time2str(c, "%Y-%m-%d"), commit_days)}')
+    return commit_days
 
-def generateCodeLine(featureName):
-	return "\tprint('%s')" % featureName
 
-def generateFeatureName():
-	words = splitLines(readFile('dupa/words.txt'))
-	message = ''
-	for i in range(random.randint(2, 5)):
-		message += random.choice(words) + ' '
-	return message[:-1]
+def make_commit(commit_date):
+    feature_name = generate_feature_name()
+    commit_message = 'Add %s feature' % feature_name
+    # make a change
+    shell('echo "%s" >> dupa/art.py' % generate_code_line(feature_name))
+    # set random time
+    r_datetime = set_random_time(commit_date)
+    commit_with_fake_date(r_datetime, commit_message)
 
-def commitWithFakeDate(datetime, commitMessage):
-	# date format: Tue Aug 28 12:07:00 2018 +0200
-	datetimeString = time2str(datetime, "%a %b %d %H:%M:%S %Y +0200")
-	shellExec('git commit --date "%s" -am "%s"' % (datetimeString, commitMessage))
-	info('commit has been made: %s - %s' % (datetimeString, commitMessage))
 
-def setRandomTime(date):
-	hour = random.randint(8, 21)
-	minute = random.randint(0, 59)
-	second = random.randint(0, 59)
-	return date.replace(hour=hour, minute=minute, second=second)
+def generate_code_line(feature_name):
+    return "\tprint('%s')" % feature_name
 
-# ----- Main
+
+def generate_feature_name():
+    words = read_file('dupa/words.txt').splitlines()
+    message = ''
+    for i in range(random.randint(2, 5)):
+        message += random.choice(words) + ' '
+    return message[:-1]
+
+
+def commit_with_fake_date(fake_datetime, commit_message):
+    # date format: Tue Aug 28 12:07:00 2018 +0200
+    datetime_string = time2str(fake_datetime, "%a %b %d %H:%M:%S %Y +0200")
+    shell('git commit --date "%s" -am "%s"' % (datetime_string, commit_message))
+    info('commit has been made: %s - %s' % (datetime_string, commit_message))
+
+
+def set_random_time(date):
+    hour = random.randint(8, 21)
+    minute = random.randint(0, 59)
+    second = random.randint(0, 59)
+    return date.replace(hour=hour, minute=minute, second=second)
+
+
 def main():
-	setWorkdir(getScriptRealDir())
-	# make commits
-	for commitDay in generateCommitDays():
-		makeCommit(commitDay)
-	# push commits
-	shellExec('git push origin master')
+    set_workdir(script_real_dir())
+    # make commits
+    for commitDay in generate_commit_days():
+        make_commit(commitDay)
+    # push commits
+    shell('git push origin master')
 
-if __name__ == '__main__': # testing purposes
-	main()
+
+if __name__ == '__main__':
+    main()
